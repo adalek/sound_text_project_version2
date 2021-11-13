@@ -1,0 +1,97 @@
+body{
+  background-color: black;
+  align-items: center;
+}
+
+canvas.wave{
+  padding-left: 0;
+   padding-right: 0;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+   width: 560px;
+   opacity: 0.5;
+}
+
+canvas.p5Canvas{
+    /* position:absolute;
+    top:0;
+    left:0; */
+    /* width:100%;
+    height:100%;
+    z-index:-1; */
+}
+
+/*<canvas id="defaultCanvas0" class="p5Canvas" style="width: 830px; height: 610px;" width="1660" height="1220"></canvas> */
+
+#defaultCanvas0 {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width:800px;
+  top:1%;
+  left:1px;
+  opacity: 0.7;
+}
+div.button{
+  position:fixed;
+  padding: 20px;
+  border-radius: 70%;
+  gap:10px;
+	width:60px;
+	height:300px;
+	left:5%;
+	top:10px;
+  display:grid;
+  text-align: center;
+  z-index: 999;
+}
+div.button_below{
+  bottom:40px;
+  left: 10%;
+  align-self: center;
+  padding: 0px;
+  position: absolute;
+  text-align: center;
+  gap:20px;
+  z-index: 999;
+
+}
+div.button_right{
+  position:fixed;
+  padding: 20px;
+  color: white;
+  gap:10px;
+	width:300px;
+	height:200px;
+	right:5%;
+	top:70px;
+  display:inline-table;
+  text-align:justify;
+  z-index: 999;
+}
+.b{
+  background-color: transparent;
+  outline: none;
+  border: 2px #FFB300;
+  color: #B78700;
+  text-shadow: 0px 0px 1px yellow;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  box-shadow: 0px 0px 4px yellow;
+}
+.b:hover{
+  color: white;
+  text-shadow: 0px 0px 3px white;
+  box-shadow: 0px 0px 5px white;
+}
+button.b:active {
+  text-shadow: 0px 0px 3px black;
+  box-shadow: 0px 0px 5px blue;
+}
