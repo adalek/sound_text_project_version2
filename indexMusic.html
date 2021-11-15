@@ -32,8 +32,6 @@
       <button class="b" onclick="cs_change_music('assets/05.wav');">track 05</button>
       <button class="b" onclick="cs_change_music('assets/06.wav');">track 06</button>
       <button class="b" onclick="cs_change_music('assets/07.wav');">track 07</button>
-    </div>
-    <div class="button_below">
       <button class="b" onclick="cs_change_music('assets/08.wav');">track 08</button>
       <button class="b" onclick="cs_change_music('assets/09.wav');">track 09</button>
       <button class="b" onclick="cs_change_music('assets/10.wav');">track 10</button>
@@ -45,7 +43,19 @@
       <button class="b" onclick="cs_change_music('assets/16.wav');">track 16</button>
       <button class="b" onclick="cs_change_music('assets/17.wav');">track 17</button>
       <button class="b" onclick="cs_change_music('assets/18.wav');">track 18</button>
+
+    <!-- </div>
+    <div class="button_below"> -->
+
       <button class="b" onclick="cs_change_music('assets/19.wav');">track 19</button>
+      <button class="b" onclick="cs_change_music('assets/20.wav');">track 20</button>
+      <button class="b" onclick="cs_change_music('assets/21.wav');">track 21</button>
+      <button class="b" onclick="cs_change_music('assets/22.wav');">track 22</button>
+      <button class="b" onclick="cs_change_music('assets/23.wav');">track 23</button>
+      <button class="b" onclick="cs_change_music('assets/24.wav');">track 24</button>
+      <button class="b" onclick="cs_change_music('assets/25.wav');">track 25</button>
+      <button class="b" onclick="cs_change_music('assets/26.wav');">track 26</button>
+      <button class="b" onclick="cs_change_music('assets/27.wav');">track 27</button>
 
     </div>
     <div class="button_right">
@@ -81,6 +91,14 @@
       "17":"Bach, The Well-Tempered Clavier, Book 2, Prelude and Fugue in C, No.1. Glenn Gould, piano. 4:48",
       "18":"Beethoven, Fifth Symphony, First Movement, the Philharmonia Orchestra, Otto Klemperer, conductor. 7:20",
       "19":"Bulgaria, 'Izlel je Delyo Hagdutin,' sung by Valya Balkanska. 4:59",
+      "20":"Navajo Indians, Night Chant, recorded by Willard Rhodes. 0:57",
+      "21":"Holborne, Paueans, Galliards, Almains and Other Short Aeirs, 'The Fairie Round,' performed by David Munrow and the Early Music Consort of London. 1:17",
+      "22":"Solomon Islands, panpipes, collected by the Solomon Islands Broadcasting Service. 1:12",
+      "23":"Peru, wedding song, recorded by John Cohen. 0:38",
+      "24":"China, ch'in, 'Flowing Streams,' performed by Kuan P'ing-hu. 7:37",
+      "25":"India, raga, 'Jaat Kahan Ho,' sung by Surshri Kesar Bai Kerkar. 3:30",
+      "26":"'Dark Was the Night,' written and performed by Blind Willie Johnson. 3:15",
+      "27":"Beethoven, String Quartet No. 13 in B flat, Opus 130, Cavatina, performed by Budapest String Quartet. 6:37"
     };
    function cs_change_music(music)
    {
@@ -104,9 +122,10 @@
 
     <script src="https://cdn.jsdelivr.net/gh/foobar404/wave.js/dist/bundle.iife.js"></script>
     <script>
-
+    // bars, bars blocks, cubes, dualbars, dualbars blocks, fireworks, flower, flower blocks, orbs, ring,
+    //rings, round wave, shine, shine rings, shockwave, star, static,stitches, web, wave
           let wave = new Wave();
-          options = {type:"cubes", colors:['#F5BD02','yellow',"white"]};
+          options = {type:"stitches", colors:['#F5BD02','yellow',"white"]};
         wave.fromElement("my-audio","output", options);
     </script>
 
