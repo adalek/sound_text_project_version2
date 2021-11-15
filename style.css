@@ -28,6 +28,11 @@ canvas.p5Canvas{
 
 /*<canvas id="defaultCanvas0" class="p5Canvas" style="width: 830px; height: 610px;" width="1660" height="1220"></canvas> */
 
+/* #myContainer{
+  position: absolute;
+  top: 120px;
+} */
+
 #defaultCanvas0 {
   padding-left: 0;
   padding-right: 0;
@@ -46,7 +51,7 @@ div.button{
 	width:60px;
 	height:80%;
 	left:3%;
-	top:40px;
+	top:140px;
   display:flex;
   flex-direction: column;
   flex-wrap: wrap;
